@@ -1,220 +1,293 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Eitan Peles - Resume</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="./styles/main.css">
-        <link rel="stylesheet" href="./styles/theme-switcher.css">
-    </head>
-    <body>
-        <div id="container--main">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eitan Peles - QA Engineer | SDET | Automation Testing</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <header class="header">
+            <div class="profile-section">
+                <div class="profile-image">
+                    <img src="assets/profile.jpg" alt="Eitan Peles" id="profileImg">
+                </div>
+                <div class="profile-info">
+                    <h1>Eitan Peles</h1>
+                    <h2>QA Engineer | SDET | Automation Testing | AI & LLMs Enthusiast</h2>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>eitan.peles@outlook.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+55 (11) 99999-9999</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>São Paulo, Brazil</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-linkedin"></i>
+                            <a href="https://linkedin.com/in/epeles" target="_blank">linkedin.com/in/epeles</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-github"></i>
+                            <a href="https://github.com/epeles" target="_blank">github.com/epeles</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
 
-            <section id="wrapper--hero" class="section--page">
-                <img id="profile-pic" src="./assets/images/profile_pic.png">
-
-                <div>
-                    <h1 id="user-name">Eitan M. Peles</h1>
-                    <p id="bio">QA Engineer | SDET | Automation Testing</p>
-                    <p id="email">epeles@gmail.com</p>
-                    <p id="address">Rua Barata Ribeiro, Copacabana - RJ/Brazil</p>
-                    <p id="mobile">+55-21-998123737</p>
-                </div>  
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Professional Summary -->
+            <section class="section">
+                <h3><i class="fas fa-user"></i> Professional Summary</h3>
+                <p>Experienced QA Engineer and Test Automation Specialist with expertise in building robust automation frameworks, implementing AI-powered testing solutions, and driving quality assurance initiatives. Passionate about leveraging AI & LLMs to enhance testing processes and improve software quality. Strong background in Playwright, Azure OpenAI, CI/CD pipelines, and modern testing methodologies.</p>
             </section>
 
-            <section class="section--page">
-        
-                <div id="socials--list">
-                    <a href="https://twitter.com/epeles" target="_blank">Twitter</a>
-                    <a href="https://www.linkedin.com/in/epeles/" target="_blank">Linkedin</a>
-                    <a href="https://github.com/epeles" target="_blank">Github</a>
-                    <a href="./assets/EitanPeles-CV.pdf" target="_blank">Download Resume</a>
-                </div>
-            </section>
-
-            <section class="section--page">
-                <h2>Skills & Qualifications</h2>
-                <ul id="qualifications--list">
-                    <li>✔️ 18 Years experience in IT department</li>
-                    <li>✔️ 6 Years experience in QA</li>
-                    <li>✔️ Languages: Portuguese, English and Hebrew</li>
-                   
-                </ul>
-            </section>
-
-            <section class="section--page">
-                <h2>Tech stack</h2>
-
-                <div id="wrapper--techstack__items">
-                    <div class="card--techstack"><span>Python, JavaScript</span></div>
-                    <div class="card--techstack"><span>Jenkins</span></div>
-                    <div class="card--techstack"><span>Selenium, Cypress, Playwright</span></div>
-                    <div class="card--techstack"><span>Postgres, Oracle, MySQL</span></div>
-                </div>
-            </section>
-
-            <section id="work-history-wrapper" class="section--page">
-                <h2>Work History</h2>
-
-                <div class="card--work-history">
-                    <strong><img id="logo" src="https://logo.clearbit.com/princess.com"> SENIOR TEST AUTOMATION ENGINEER | PRINCESS CRUISES | Miami, USA (Remote)</strong>
-                    <p>6/2025 - present</p>
-                    <ul>
-                        <li>Designed a custom AI automation agent (Azure OpenAI + Playwright MCP) to interpret natural language commands, generate and modify tests, suggest resilient selectors, and trigger executions; </li>
-                        <li>Built and maintained Playwright automation framework: storage state reuse, parallel execution on BrowserStack, smart retries, and improved error handling – reducing test flakiness em ~30% e tempo de execução em ~25% (primeiros 2 meses);</li>
-                    </ul>
-                </div>
-
-                <div class="line-break"></div>
-
-                <div class="card--work-history">
-                    <strong><img id="logo" src="https://logo.clearbit.com/fanatics.com"> SENIOR QA AUTOMATION ENGINEER | FANATICS | Jacksonville, USA (Remote)</strong>
-                    <p>5/2025 - 8/2025</p>
-                    <ul>
-                        <li>Implemented Go-based AWS Lambda monitoring integrating Adobe Journey Optimizer Preview API, dynamic KlioDB profile data, and AI audit checks – aumentando cobertura de validação de journeys para ~90% dos cenários críticos e reduzindo falsos positivos em ~40%;</li>
-                        <li>Developed and executed end-to-end tests for the Abandon Cart Journey in Adobe Journey Optimizer, validando fluxo de eventos, audience qualification e entrega de e-mails com precisão de ~98% nos asserts chave; </li>
-                    </ul>
-                </div>
-
-                <div class="line-break"></div>
-
-                <div class="card--work-history">
-                    <strong><img id="logo" src="https://logo.clearbit.com/contruent.com"> SR QA AUTOMATION ENGINEER | CONTRUENT | Illinois, USA (Remote)</strong>
-                    <p>3/2025 - present</p>
-                    <!-- <p>As QA Team Leader at a global provider of data-driven personalization for the Financial Services industry, I lead a team of two QAs. I create and deploy E2E tests, and writ[...]-->
-                    <ul>
-                        <li>Automation tests on Playwright and TypeScript;</li>
-                        <!-- <li>API tests on Postman;</li> -->
-                        <!-- Removed mobile tests line as per user request -->
-                        <li>DB tests with advanced queries on Oracle, MySQL, PostgreSQL and MS-SQL Databases;</li>
-                        <li>Backend tests on Linux;</li>
-                        <li>Responsible for creating and maintaining test cases and test plans.</li>
-                    </ul>
-                </div>
-
-                <div class="line-break"></div>
-
-                <div class="card--work-history">
-                    <strong><img id="logo" src="https://logo.clearbit.com/personetics.com"> QA ENGINEER | PERSONETICS | Gyvataim, Israel (Remote)</strong>
-                    <p>3/2022 - 3/2025</p>
-                    <p>As QA Team Leader at a global provider of data-driven personalization for the Financial Services industry, I lead a team of two QAs. I create and deploy E2E tests, and write, ex[...]</p>
-                    <ul>
-                        <li>Automation tests on Cypress and JavaScript;</li>
-                        <li>API tests on Postman;</li>
-                        <li>Mobile tests on Android Studio and Xcode;</li>
-                        <li>DB tests with advanced queries on Oracle, MySQL, PostgreSQL and MS-SQL Databases;</li>
-                        <li>Backend tests on Linux;</li>
-                        <li>Responsible for creating and maintaining test cases and test plans.</li>
-                    </ul>
-                </div>
-
-                <div class="line-break"></div>
-
-                <div class="card--work-history">
-                    <strong><img id="logo" src="https://logo.clearbit.com/auraplayer.com"> QA ENGINEER | AURAPLAYER | Ra'anana, Israel (Hybrid)</strong>
-                    <p>11/2020 - 2/2022</p>
-                    <p>As the sole QA Analyst at a small startup, I built the QA processes from scratch for a web-based application that integrates existing Oracle Forms and EBS systems as web service[...]</p>
-                    <ul>
-                        <li>Automation tests on Selenium and Python;</li>
-                        <li>API tests on Postman;</li>
-                        <li>DB tests with advanced queries on Oracle, MySQL, PostgreSQL and MS-SQL Databases;</li>
-                        <li>Backend tests on Linux;</li>
-                        <li>Responsible for creating and maintaining test cases and test plans.</li>
-                    </ul>
-                </div>
-
-                <div class="line-break"></div>
-
-                <div class="card--work-history">
-                    <strong><img id="logo" src="https://logo.clearbit.com/cyberit.co.il"> SYSTEM INTEGRATOR | CYBER IT | Ra'anana, Israel (On site)</strong>
-                    <p>2/2019 - 6/2020</p>
-                    <p>Streamlined the installation and maintenance of the SolarWinds Orion Platform in complex, geographically dispersed IT environments for large companies in Israel.</p>
-                    <ul>
-                        <li>Monitored all nodes (Windows/Linux physical/VM servers, workstations, firewalls, routers, switches, APs, Windows services, websites) via ICMP, SNMP, WMI, or SW agent, ensur[...]</li>
-                        <li>Created user roles through Active Directory, discovered nodes, created dashboard views, thresholds, custom alerts (email/SMS), and custom widgets in SQL;</li>
-                        <li>Oversaw network, application, and storage resources using various SolarWinds tools.</li>
-                    </ul>
-                </div>
-
-                <div class="line-break"></div>
-
-                <div class="card--work-history">
-                    <strong><img id="logo" src="https://media.licdn.com/dms/image/v2/C4E0BAQFLdQzz70GIoA/company-logo_200_200/company-logo_200_200/0/1630607123145/tvmanager_logo?e=1747872000&v=beta&t=[...]</strong>
-                    <p>2018</p>
-                    <p>Collaborated with Marketing and R&D teams to maintain project timelines, improve processes, and maximize resource utilization in Agile environments.</p>
-                    <ul>
-                        <li>Responsible for creating and maintaining tests cases and test plans;</li>
-                        <li>UI tests with Selenium and Python;</li>
-                        <li>API tests.</li>
-                    </ul>
-                </div>
-
-                <div class="line-break"></div>
-
-                <div class="card--work-history">
-                    <strong><img id="logo" src="https://logo.clearbit.com/mru.com.br"> SYSTEM ANALYST | MRU BUSINESS ADVISORY | Rio de Janeiro, Brazil</strong>
-                    <p>2017 - 2018</p>
-                    <p></p>
-                    <ul>
-                        <li>Made the company website responsive using JavaScript, HTML, CSS, and Bootstrap, resulting in dramatic improvements in web visitors' online experience and engagement;</li>
-                        <li>Added a chatbot using Chatfuel on the company’s Facebook Page and WhatsApp – boosted brand engagement and generated high-quality leads;</li>
-                        <li>Assisted the company in extending its partnership with Babylon to become its sole representative in Brazil.</li>
-                    </ul>
-                </div>
-
-                <div class="line-break"></div>
-                <div class="card--work-history">
-                    <strong><img id="logo" src="https://logo.clearbit.com/petrobras.com"> DATA ANALYST | PETROBRAS | Rio de Janeiro, Brazil</strong>
-                    <p>2008 - 2016</p>
-                    <p>Delivered 4th level support; prepared manuals and FAQs for Babylon-Enterprise users and weekly usage statistics with Log Parser Utility.</p>
-                    <ul>
-                        <li>Technical Scope: acquisition of virtual servers, deployment, and maintenance of Babylon-Enterprise client; building customized glossaries for Babylon - SQL queries from dif[...]</li>
-                    </ul>
-                </div>
-
-            </section>
-
-            <section class="section--page">
-                <h2>Education</h2>
-
-                <div class="card--project">
-                    <span>🎓 </span>Full Stack Web Developer (Bootcamp), Netcraft Academy, Israel - 2019
-                </div>
-
-                <div class="card--project">
-                    <span>🎓 </span>Front-End Web Developer Nanodegree, Udacity, Remote - 2014
-                </div>
-
-                <div class="card--project">
-                    <span>🎓 </span>B.Sc. Computer Science, Estácio de Sá University, Brazil - 2008
-                </div>
-
+            <!-- Experience -->
+            <section class="section">
+                <h3><i class="fas fa-briefcase"></i> Professional Experience</h3>
                 
+                <div class="experience-item">
+                    <div class="job-header">
+                        <h4>Senior Test Automation Engineer</h4>
+                        <span class="company">Motif</span>
+                        <span class="duration">Sep 2025 - Present</span>
+                    </div>
+                    <div class="location">San Francisco, California, United States · Remote</div>
+                    <div class="job-description">
+                        <ul>
+                            <li>Leading test automation initiatives and framework development for cutting-edge applications</li>
+                            <li>Implementing AI-powered testing solutions to enhance test coverage and efficiency</li>
+                            <li>Collaborating with cross-functional teams to establish quality standards and best practices</li>
+                            <li>Mentoring junior engineers and contributing to technical decision-making processes</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="experience-item">
+                    <div class="job-header">
+                        <h4>Senior Test Automation Engineer</h4>
+                        <span class="company">Princess Cruises</span>
+                        <span class="duration">Jun 2025 - Oct 2025</span>
+                    </div>
+                    <div class="location">Miami, Florida, United States · Remote</div>
+                    <div class="job-description">
+                        <ul>
+                            <li>Designed and implemented a custom AI automation agent from scratch, using Azure OpenAI and Playwright's native MCP to interpret natural language commands, trigger tests, suggest optimal selectors, JIRA integration and dynamically modify test code</li>
+                            <li>Built and maintained Playwright test automation with a focus on performance and stability: implemented storage state, parallel execution on BrowserStack, smart retries, and improved error handling to reduce test flakiness and execution time, using a POM + Facade architecture</li>
+                            <li>Established CI/CD pipelines and automated testing workflows to support continuous delivery</li>
+                        </ul>
+                    </div>
+                    <div class="skills-used">
+                        <span class="skill-tag">GitLab</span>
+                        <span class="skill-tag">Artificial Intelligence (AI)</span>
+                        <span class="skill-tag">Azure OpenAI</span>
+                        <span class="skill-tag">Playwright</span>
+                        <span class="skill-tag">BrowserStack</span>
+                        <span class="skill-tag">JIRA</span>
+                    </div>
+                </div>
+
+                <div class="experience-item">
+                    <div class="job-header">
+                        <h4>Senior QA Automation Engineer</h4>
+                        <span class="company">Contruent</span>
+                        <span class="duration">Mar 2025 - Jun 2025</span>
+                    </div>
+                    <div class="location">Naperville, Illinois, United States · Remote</div>
+                    <div class="job-description">
+                        <ul>
+                            <li>Developed comprehensive test automation strategies for enterprise-level construction management software</li>
+                            <li>Implemented scalable testing frameworks and quality assurance processes</li>
+                            <li>Collaborated with development teams to ensure high-quality software delivery</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="experience-item">
+                    <div class="job-header">
+                        <h4>Cloud Solutions Architect & Azure Engineer</h4>
+                        <span class="company">Freelance</span>
+                        <span class="duration">2020 - 2025</span>
+                    </div>
+                    <div class="location">Remote</div>
+                    <div class="job-description">
+                        <ul>
+                            <li>Designed and implemented cloud solutions using Microsoft Azure</li>
+                            <li>Developed automation scripts and infrastructure as code</li>
+                            <li>Provided technical consulting for cloud migration projects</li>
+                        </ul>
+                    </div>
+                </div>
             </section>
 
-            <section class="section--page">
-                <h2>My Projects</h2>
-                <ul>
-                    <li><a href="https://github.com/epeles/serverest-tests" target="_blank">Automation Testing for Serverest API</a> Cypress, JS, Github Actions</li>
-                    <li><a href="https://github.com/epeles/saucedemo" target="_blank">Automation Testing for Saucedemo</a> Selenium, Python, pytest, Allure reporting, Github Actions</li>
-                    <li><a href="https://github.com/epeles/cypress_home_assignment" target="_blank">Automation Testing for Salary Insights</a> Cypress, JS</li>
-                    <li><a href="https://github.com/epeles/monsters-card-tests" target="_blank">Automated Tests for a Monster Card application </a> Cypress, JS, Github Actions</li>
-                    <li><a href="https://github.com/epeles/formulario-testes" target="_blank">Automation tests for Forms input fields validation</a> Cypress, JS, Github Actions</li>
-                    <li><a href="https://epeles.github.io/movie-search-v2/" target="_blank">Movie Search</a> Vanilla JS</li>
-                    <li><a href="https://epeles.github.io/lyrics-search/" target="_blank">Lyrics Search</a> Vanilla JS</li>
-                    <li><a href="https://github.com/epeles/search_on_duckduckgo" target="_blank">Duckduckgo Search</a> Selenium, Python</li>
+            <!-- Skills -->
+            <section class="section">
+                <h3><i class="fas fa-cogs"></i> Technical Skills</h3>
+                
+                <div class="skills-category">
+                    <h4>Testing & Automation</h4>
+                    <div class="skills-grid">
+                        <span class="skill-tag">Playwright</span>
+                        <span class="skill-tag">Selenium</span>
+                        <span class="skill-tag">Test Automation</span>
+                        <span class="skill-tag">SDET</span>
+                        <span class="skill-tag">API Testing</span>
+                        <span class="skill-tag">Performance Testing</span>
+                        <span class="skill-tag">BrowserStack</span>
+                        <span class="skill-tag">Cross-browser Testing</span>
+                    </div>
+                </div>
 
-                </ul>
+                <div class="skills-category">
+                    <h4>AI & Machine Learning</h4>
+                    <div class="skills-grid">
+                        <span class="skill-tag">Azure OpenAI</span>
+                        <span class="skill-tag">Large Language Models (LLMs)</span>
+                        <span class="skill-tag">AI Automation</span>
+                        <span class="skill-tag">Natural Language Processing</span>
+                        <span class="skill-tag">Machine Learning</span>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <h4>Programming & Scripting</h4>
+                    <div class="skills-grid">
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">TypeScript</span>
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">PowerShell</span>
+                        <span class="skill-tag">Bash</span>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <h4>Cloud & DevOps</h4>
+                    <div class="skills-grid">
+                        <span class="skill-tag">Microsoft Azure</span>
+                        <span class="skill-tag">CI/CD</span>
+                        <span class="skill-tag">GitLab</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">Kubernetes</span>
+                        <span class="skill-tag">Infrastructure as Code</span>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <h4>Tools & Platforms</h4>
+                    <div class="skills-grid">
+                        <span class="skill-tag">JIRA</span>
+                        <span class="skill-tag">Azure DevOps</span>
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">Jenkins</span>
+                        <span class="skill-tag">Postman</span>
+                        <span class="skill-tag">Visual Studio Code</span>
+                    </div>
+                </div>
             </section>
 
-       
-        </div>
-        <div id="theme-switcher">
-            <div class="theme" id="theme-light" data-theme="light"></div>
-            <div class="theme" id="theme-dark" data-theme="dark"></div>
-        </div>
-    </body>
-    <script src="js/theme-switcher.js"></script>
+            <!-- Certifications -->
+            <section class="section">
+                <h3><i class="fas fa-certificate"></i> Certifications</h3>
+                <div class="certifications-grid">
+                    <div class="cert-item">
+                        <h4>Microsoft Azure Fundamentals (AZ-900)</h4>
+                        <span class="cert-date">2024</span>
+                    </div>
+                    <div class="cert-item">
+                        <h4>Microsoft Azure Administrator (AZ-104)</h4>
+                        <span class="cert-date">2024</span>
+                    </div>
+                    <div class="cert-item">
+                        <h4>Microsoft Azure Developer (AZ-204)</h4>
+                        <span class="cert-date">2024</span>
+                    </div>
+                    <div class="cert-item">
+                        <h4>Microsoft Azure Solutions Architect Expert (AZ-305)</h4>
+                        <span class="cert-date">2024</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Projects -->
+            <section class="section">
+                <h3><i class="fas fa-project-diagram"></i> Key Projects</h3>
+                
+                <div class="project-item">
+                    <h4>AI-Powered Test Automation Agent</h4>
+                    <p>Developed a custom AI automation agent using Azure OpenAI and Playwright's MCP to interpret natural language commands, trigger tests, suggest optimal selectors, and integrate with JIRA for comprehensive test management.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Azure OpenAI</span>
+                        <span class="tech-tag">Playwright</span>
+                        <span class="tech-tag">Natural Language Processing</span>
+                        <span class="tech-tag">JIRA Integration</span>
+                    </div>
+                </div>
+
+                <div class="project-item">
+                    <h4>Advanced Playwright Testing Framework</h4>
+                    <p>Built a robust Playwright test automation framework with storage state management, parallel execution on BrowserStack, smart retries, and improved error handling using POM + Facade architecture.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Playwright</span>
+                        <span class="tech-tag">BrowserStack</span>
+                        <span class="tech-tag">Page Object Model</span>
+                        <span class="tech-tag">CI/CD</span>
+                    </div>
+                </div>
+
+                <div class="project-item">
+                    <h4>Cloud Infrastructure Automation</h4>
+                    <p>Designed and implemented automated cloud infrastructure solutions using Azure services, reducing deployment time by 70% and improving system reliability.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Azure</span>
+                        <span class="tech-tag">Infrastructure as Code</span>
+                        <span class="tech-tag">PowerShell</span>
+                        <span class="tech-tag">ARM Templates</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Education -->
+            <section class="section">
+                <h3><i class="fas fa-graduation-cap"></i> Education</h3>
+                <div class="education-item">
+                    <h4>Bachelor's Degree in Computer Science</h4>
+                    <span class="institution">Universidade de São Paulo</span>
+                    <span class="education-date">2015 - 2019</span>
+                </div>
+            </section>
+
+            <!-- Languages -->
+            <section class="section">
+                <h3><i class="fas fa-language"></i> Languages</h3>
+                <div class="languages-grid">
+                    <div class="language-item">
+                        <span class="language">Portuguese</span>
+                        <span class="level">Native</span>
+                    </div>
+                    <div class="language-item">
+                        <span class="language">English</span>
+                        <span class="level">Fluent</span>
+                    </div>
+                    <div class="language-item">
+                        <span class="language">Spanish</span>
+                        <span class="level">Intermediate</span>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
 </html>
